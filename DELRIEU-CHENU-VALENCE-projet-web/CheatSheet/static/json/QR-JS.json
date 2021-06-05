@@ -1,0 +1,212 @@
+[{
+    "level": 1,
+    "type": "QCM",
+    "question": "Qu'affiche String.fromCharCode(65) ?",
+    "suggestions": ["1", "A", "une erreur", "true"],
+    "answers": ["A"]
+},
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Si ch1=''ABCED'', que retourne ch1.charAt(3)",
+        "suggestions": ["E", "C", "une erreur", "true"],
+        "answers": ["E"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "La fonction javascript_info()",
+        "suggestions": ["permet de déboguer une variable", "permet de connaître l'OS de l'utilisateur", "n'existe pas", "renvoie la version de JavaScript utilisée"],
+        "answers": ["n'existe pas"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Si ch1=''WXYZ'', que retourne ch1.CharAT(3)",
+        "suggestions": ["Z", "true", "une erreur", "Y"],
+        "answers": ["une erreur"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Le DOM",
+        "suggestions": ["est spécifique a JavaScript", "est un moteur de bases de données", "ne peut pas être manipulé par JavaScript", "décrit la structure du document HTML ou XML"],
+        "answers": ["décrit la structure du document HTML ou XML"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Comment ajouter du code JavaScript dans une page HTML?",
+        "suggestions": ["&ltscript type=''text/javascript''&gt &lt/script&gt", "&ltscript src=''javascript''&gt &lt/script&gt", "&ltscript type=''javascript''&gt &lt/script&gt", "&ltscript src=''text/javascript''&gt &lt/script&gt"],
+        "answers": ["&ltscript type=''text/javascript''> &lt/script>"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Comment lire le jour du mois dans une date ?",
+        "suggestions": ["getDay()", "getDate()", "Day()", "Date.parse()"],
+        "answers": ["getDate()"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Comment accéder au premier élément d'un tableau T1 ?",
+        "suggestions": ["T1(1)", "T1[0]", "T1[1]", "T1(0)"],
+        "answers": ["T1[0]"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Comment sortir d'une boucle for() ou while() ?",
+        "suggestions": ["exit", "break", "end", "continue"],
+        "answers": ["break"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Pour tester de nombreuses conditions sur la même variable on utilise",
+        "suggestions": ["if()", "while()", "for()", "switch()"],
+        "answers": ["switch()"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "SQRT2 est",
+        "suggestions": ["une fonction de tri", "la fonction racine carrée", "n'existe pas en JavaScript", "la constante racine carrée de 2"],
+        "answers": ["la constante racine carrée de 2"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "window.confirm() affiche une boite de dialogue avec",
+        "suggestions": ["un message, un champ de saisie et les boutons OK Annuler", "un message et le bouton OK seul", "un message et les boutons OK Annuler"],
+        "answers": ["un message et les boutons OK Annuler"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Comment afficher 'Bonjour' dans une boite de dialogue ?",
+        "suggestions": ["print(''bonjour'');", "alert(''bonjour'');", "write(''bonjour'');"],
+        "answers": ["alert(''bonjour'');"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Que retourne typeof 1.4217 ?",
+        "suggestions": ["float", "double", "number", "integer"],
+        "answers": ["number"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "A quoi sert l'opérateur &gt ?",
+        "suggestions": ["décalage binaire", "n'existe pas en Javascript", "comparaison de chaînes", "operateur XOR"],
+        "answers": ["décalage binaire"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "L'opérateur == ",
+        "suggestions": ["n'existe pas en JavaScript", "est un OU logique", "teste l'égalité", "s'utilise pour les affectations"],
+        "answers": ["teste l'égalité"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Que signifie NaN ?",
+        "suggestions": ["Not a Number", "Not at NULL", "Not area Negative", "Number area NULL"],
+        "answers": ["Not a Number"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Que fais T1.push(3) sur le tableau T1 ?",
+        "suggestions": ["retire les 3 derniers éléments", "retire l'élément en 3ème position", "décale tous les indices de 3 positions", "ajoute l'élément 3"],
+        "answers": ["ajoute l'élément 3"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quelle fonction est l'inverse de split() ?",
+        "suggestions": ["unite()", "join()", "append()", "concat()"],
+        "answers": ["join()"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Comment inverser un tableau T1 ?",
+        "suggestions": ["T1.transpose()", "T1.inverse()", "T1.rollout", "T1.reverse()"],
+        "answers": ["T1.reverse()"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Comment télécharger et mettre une image en cache afin d'éviter les délais d'affichage ?",
+        "suggestions": ["load Image()", "preload", "new Image()", "cache()"],
+        "answers": ["new Image()"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Pour vérifier les données d'un formulaire avant envoi, quel événement est le plus approprié ?",
+        "suggestions": ["onSubmit", "onFocus", "onClick", "onLoad"],
+        "answers": ["onSubmit"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Dans la hiérarchie des objets, quel est le parent direct de l'objet form ?",
+        "suggestions": ["location", "body", "document", "window"],
+        "answers": ["document"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Quel est l'objet de plus haut niveau en JavaScript ?",
+        "suggestions": ["url", "top", "window", "document"],
+        "answers": ["window"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "L'objet 'document' par rapport à l'objet 'window' est",
+        "suggestions": ["frère", "père", "n'a aucun lien avec", "fils"],
+        "answers": ["fils"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "La valeur d'une date représente le nombre de millisecondes écoulées depuis le",
+        "suggestions": ["01 Janvier de l'an 0", "01 Janvier 1850", "01 Janvier 1970", "01 Janvier 1900"],
+        "answers": ["01 Janvier 1970"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Quel événement correspond au double click ?",
+        "suggestions": ["Cet événement n'existe pas", "onDoubleClick", "onDclick", "onDblclick"],
+        "answers": ["onDblclick"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Math.ceil(3.6) renvoie",
+        "suggestions": ["3", "4", "3 4 5 6", "n'existe pas en Javascript"],
+        "answers": ["4"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Quelle fonction permet de temporiser l'exécution d'une commande ?",
+        "suggestions": ["setTimeout()", "wait()", "setTimer", "sleep()"],
+        "answers": ["setTimeout()"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Qu'est-ce que JSON par rapport au JavaScript ?",
+        "suggestions": ["un langage de programmation dérivé", "une variable d'environnement système", "un langage de requêtes", "un format d'échange de données texte"],
+        "answers": ["un format d'échange de données texte"]
+    }
+
+]

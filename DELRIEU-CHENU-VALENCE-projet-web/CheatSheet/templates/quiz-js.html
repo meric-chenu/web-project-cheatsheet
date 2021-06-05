@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz html</title>
+    <link rel="stylesheet" href="../static/css/training-quiz.css">
+    <link rel="stylesheet" href="../static/css/navigation-footer.css">
+</head>
+<body>
+    <div id="navigation-bar-computer" class="color-navigation-bar-clear-mode">
+        <p id="title-navigation" class="tuffyregular">Cheat Sheet Web</p>
+        <div id="all-link-navigation">
+            <p class="navigation-link tuffyregular"><a href="home.html">Accueil</a></p>
+            <div class="separateur"></div>
+            <p class="navigation-link tuffyregular"><a href="cheatsheet.html">Cheat Sheet</a></p>
+            <div class="separateur"></div>
+            <p class="navigation-link tuffyregular"><a href="quiz.html">Quiz</a></p>
+            <div class="separateur"></div>
+            <p class="navigation-link tuffyregular"><a href="outils.html">Outils</a></p>
+            <div class="separateur"></div>
+            <p class="navigation-link tuffyregular"><a href="about.html">A propos</a></p>
+        </div>
+        <div id="container-dark-mode">
+            <img src="../static/img/moon.png" alt="Moon dark mode">
+        </div>
+        <div id="toggle-day-night">
+            <div id="container-ball-dark-mode">
+                <div class="ball-dark-mode" id="ball-dark-mode"></div>
+            </div>
+
+        </div>
+        <div id="toggle-button-hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div id="navigation-bar-phone" class="color-navigation-bar-clear-mode hidden">
+        <div id="toggle-button-close-menu">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="elements-navigation-phone">
+            <p id="title-navigation-phone" class="tuffyregular">Cheat Sheet Web</p>
+                <div id="all-link-navigation-phone">
+                    <p class="navigation-link tuffyregular"><a href="home.html">Accueil</a></p>
+                    <p class="navigation-link tuffyregular"><a href="cheatsheet.html">Cheat Sheet</a></p>
+                    <p class="navigation-link tuffyregular"><a href="quiz.html">Quiz</a></p>
+                    <p class="navigation-link tuffyregular"><a href="outils.html">Outils</a></p>
+                    <p class="navigation-link tuffyregular"><a href="about.html">A propos</a></p>
+                </div>
+        </div>
+    </div>
+    <div id="main-container">
+
+        <div id="language" class="hidden">JS</div> <!-- JS CSS HTML permettant le chargement des fichiers JSON en
+                                    récupérant la valeur du langage via javascript-->
+
+        <div id="container-name-langage">
+            <img src="../static/img/logoJS.png" alt="Logo javascript">
+            <div id="container-title-page">
+                <p>Quiz - JavaScript</p>
+                <p>Testez-vous</p>
+            </div>
+        </div>
+        <nav id="button-level-quiz">
+            <button id="bt-niv1" class="button-level" type="button">Niveau 1</button>
+            <button id="bt-niv2" class="button-level" type="button">Niveau 2</button>
+            <button id="bt-niv3" class="button-level" type="button">Niveau 3</button>
+        </nav>
+
+
+        <div id="quiz" class="remove">
+            <div id="container-score">
+                <p>Score</p>
+                <div id="score"></div>
+            </div>
+
+            <form name="quiz" id="quiz-form">
+
+                <div id="question"></div>
+
+                <div id="answer"></div>
+
+                <br>
+                <button type="button" id="validate-answer">Valider - Question suivante</button>
+            </form>
+
+            <table id="qr-table">
+                <caption>Quiz</caption>
+                <tr>
+                    <th>N°</th>
+                    <th>Question</th>
+                    <th>Réponses</th>
+                    <th>Correction</th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <p id="title-footer">Projet Web</p>
+            <div id="container-about-footer">
+                <a href="about.html">A propos</a>
+                <a href="about.html"><img src="../static/img/logo-about.png" alt="Logo a propos"></a>
+            </div>
+            <p id="etudiants">Etudiant Efrei Paris</p>
+            <div id="container-bottom-footer">
+                <div id="container-logo-our-team">
+                    <img src="../static/img/Pierrick.png" alt="Logo Pierrick">
+                    <img src="../static/img/Meric.png" alt="Logo Méric">
+                    <img src="../static/img/Agathe.png" alt="Logo Agathe">
+                </div>
+                <img src="../static/img/logo-efrei.png" alt="Logo Efrei Paris" id="logo-efrei-footer">
+            </div>
+        </footer>
+    </div>
+
+    <script src="../static/js/training-quiz.js"></script>
+    <script src="../static/js/navigation-footer.js"></script>
+</body>
+</html>

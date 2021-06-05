@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+#elements-navigation{
+    list-style-type: none;
+    display: flex;
+}
+#title-navigation{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.color-navigation-bar-clear-mode{
+    background: rgba(170, 173, 250, 0.26);
+}
+.color-navigation-bar-dark-mode{
+    background-color: #2C2D41;
+}
+#navigation-bar-computer{
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 20px;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+#navigation-bar-computer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#navigation-bar-computer a:hover{
+    border-bottom: 1px solid lightgrey;
+}
+.navigation-link{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.separateur{
+    border: 1px solid #678680;
+    height: 20px;
+    margin: 0 auto;
+}
+#all-link-navigation{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#container-dark-mode{
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: black;
+    text-align: center;
+}
+#toggle-day-night{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.checkbox-day-night{
+    display: none;
+}
+#container-ball-dark-mode{
+    padding: 5px 8px;
+    width: 50px;
+    height: 26px;
+    background-color: lightgrey;
+    cursor: pointer;
+    align-items: center;
+}
+.ball-dark-mode{
+    background: #eee;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    top: 5px;
+    left: 6px;
+    transform: translateX(0px);
+    transition: transform 0.4s cubic-bezier(.45,-1.12,.35,1.78);
+}
+.change-place-ball{
+    transform: translateX(29px);
+}
+#container-dark-mode img{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.hidden{
+    display: none;
+}
+
+/*Elaboration du bouton d'activation du hamburger menu*/
+#toggle-button-hamburger-menu{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 50px;
+}
+#toggle-button-hamburger-menu span{
+    width: 60px;
+    height: 10px;
+    border-radius: 5px;
+    background: black;
+    display: block;
+    margin-top: 4px;
+    transition: 0.5s ease;
+}
+/*Barre de navigation sous téléphone portable*/
+#title-navigation-phone{
+    font-weight: bold;
+    font-size: 90px;
+    background-image: linear-gradient(90.14deg, #BA7ECF 2.9%, #F19ED0 23.1%, #948DF2 44.99%, #B9C2FF 75.22%, #FBCEA5 101.86%);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     background-clip: text;
+     color: transparent;
+}
+#elements-navigation-phone{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+#navigation-bar-phone{
+    width: 100%;
+
+}
+#elements-navigation-phone li{
+  margin: 30px;
+  font-size: 70px;
+  color: black;
+}
+#elements-navigation-phone a:link{
+    text-decoration:none;
+}
+#elements-navigation-phone a{
+    color: black;
+    cursor: pointer;
+}
+#all-link-navigation-phone p{
+    font-size: 80px;
+    margin-top: 20px;
+}
+#navigation-bar-phone{
+    padding-bottom: 50px;
+}
+#toggle-button-close-menu{
+    float: right;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 80%;
+    margin-top: 5%;
+    display: block;
+
+}
+#toggle-button-close-menu span{
+    width: 50px;
+    height: 10px;
+    background: lightgrey;
+    display: block;
+    position: absolute;
+}
+#toggle-button-close-menu span:nth-child(1){
+    transform: rotate(45deg);
+}
+#toggle-button-close-menu span:nth-child(2){
+    transform: rotate(-45deg);
+}
+
+.closeMenuHamburger{
+    animation: closeMenu 0.5s;
+ }
+ .printMenuHamburger{
+    animation: printMenu 0.5s;
+ }
+@keyframes printMenu{
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+@keyframes closeMenu{
+    from{
+        transform: translateY(0%);
+    }
+    to{
+        transform: translateY(-100%);
+
+    }
+}
+footer{
+    padding: 50px 20px;
+    background-color: #DFDFFA;
+    margin-top: 100px;
+}
+#title-footer{
+    margin-left: 50px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+}
+#container-about-footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#container-about-footer a:link{
+    text-decoration: none;
+    color: black;
+}
+#container-about-footer a{
+    color: black;
+}
+#container-about-footer a:nth-child(1){
+    margin-top: 60px;
+    margin-right: 50px;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#etudiants{
+    font-size: 24px;
+    line-height: 31px;
+    color: black;
+    margin-left: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#container-bottom-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#logo-efrei-footer{
+    width: 300px;
+    height: 100px;
+}
+/*------------------------------------Fin du design des éléments pour la barre de navigation mobile-----------*/
+/*--------------------------------------------Création des medias queries-------------------------------------*/
+@media screen and (max-width: 950px){
+    #toggle-button-hamburger-menu{
+        display: block;
+    }
+    #all-link-navigation{
+        display: none;
+    }
+    #elements-navigation{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #title-navigation{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    #container-dark-mode{
+        left: 20px;
+    }
+    #toggle-day-night{
+        left: 100px;
+    }
+}
+@media screen and (max-width: 800px){
+    #title-footer{
+        display: none;
+    }
+    #logo-efrei-footer{
+        display: none;
+    }
+    #container-bottom-footer{
+        display: block;
+        text-align: center;
+    }
+    #etudiants{
+        text-align: center;
+    }
+    #container-about-footer{
+        margin-bottom: 50px;
+    }
+    #container-logo-our-team{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 660px){
+    #title-navigation{
+        font-size: 20px;
+        margin-top: 15px;
+
+    }
+    #toggle-day-night{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 510px){
+    #title-navigation{
+        display: none;
+    }
+    #toggle-button-hamburger-menu{
+        margin-left: 85%;
+    }
+}

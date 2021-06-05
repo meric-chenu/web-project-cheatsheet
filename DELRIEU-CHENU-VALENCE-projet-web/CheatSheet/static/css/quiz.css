@@ -1,0 +1,430 @@
+body{
+    background-color: F5F5FA;
+}
+
+#container-title{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+/* Selection du premier paragraphe de la div*/
+#container-title h1{
+    background: linear-gradient(90.14deg, #BA7ECF 2.9%, #F19ED0 23.1%, #948DF2 44.99%, #B9C2FF 75.22%, #FBCEA5 101.86%);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     font-size: 100px;
+}
+#container-title h2{
+    font-size: 40px;
+    line-height: 52px;
+    color: #AAADFA;
+}
+#first-image{
+    width: 700px;
+    height: 700px;
+    float: right;
+}
+#logo-HTML,#logo-JS,#logo-CSS{
+    width: 60px;
+    height: 60px;
+}
+#container-choice-quiz{
+    width: 27%;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+#container-choice-quiz p:nth-child(1){
+    font-size: 64px;
+    line-height: 82px;
+}
+#container-choice-quiz p:nth-child(2){
+    margin-top: 30px;
+    font-size: 24px;
+    color: #828282;
+}
+#redirection-quiz{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+#quiz-css,#quiz-js{
+    margin-left: 40px;
+}
+#quiz-html,#quiz-css,#quiz-js{
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background-blend-mode: soft-light, normal;
+    border: 3px solid rgba(255, 255, 255, 0.16);
+    box-sizing: border-box;
+    box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD;
+    border-radius: 10px;
+    width: 33%;
+}
+#quiz-html img,#quiz-css img,#quiz-js img{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.redirection-quiz-langage{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #414B5A;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: bold;
+
+}
+.legend-quiz{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.button-validation-quiz{
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    text-decoration : none;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+.button-validation-quiz a{
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+.button-validation-quiz a:link{
+    text-decoration: none;
+}
+#button-quiz-html{
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background-blend-mode: soft-light, normal;
+    border: 1px solid #DC441D;
+    box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+}
+#button-quiz-css{
+    box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background-blend-mode: soft-light, normal;
+    border: 1px solid #006EBA;
+}
+#button-quiz-js{
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background-blend-mode: soft-light, normal;
+    border: 1px solid #F7D61C;
+    box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+}
+#container-quiz-information-features{
+    margin-top: 200px;
+}
+/*Selection du premier vecteur*/
+#container-quiz-information-features img:nth-child(1){
+    float: left;
+}
+#title-information-features{
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+    transform: translateX(-10%);
+
+}
+
+#title-information-features p{
+    font-size: 54px;
+
+    line-height: 64px;
+
+}
+#title-information-features span{
+    color: #08FE90;
+}
+#presentation-features{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+#vecteur1{
+    width: 300px;
+    height: 300px;
+}
+#container-image-first-feature, #container-image-second-feature, #container-image-third-feature{
+    width: 100%;
+    height: 140px;
+}
+/*Selection du petit cube à mettre dans la première ellipse*/
+
+#container-image-first-feature img:nth-child(2), #container-image-second-feature img:nth-child(2),#container-image-third-feature img:nth-child(2){
+    transform: translateX(-260%);
+    padding-top: 30px;
+}
+#text-in-first-feature, #text-in-second-feature{
+    margin-left: 40px;
+    width: 50%;
+}
+#text-in-first-feature p:nth-child(1), #text-in-second-feature p:nth-child(1), #text-in-third-feature p:nth-child(1){
+    font-size: 30px;
+    line-height: 38px;
+}
+#text-in-first-feature p:nth-child(2), #text-in-second-feature p:nth-child(2),#text-in-third-feature p:nth-child(2){
+    font-size: 20px;
+    line-height: 30px;
+    color: #828282;
+    margin-top: 20px;
+
+}
+
+#container-image-second-feature{
+    width: 100%;
+    height: 140px;
+}
+
+#second-vector{
+    float: right;
+}
+#checkout-learning-journey{
+    margin-top: 300px;
+    width: 90%;
+    margin-left: 10%;
+}
+#accroche-learning{
+    width: 35%;
+}
+#accroche-learning p{
+    font-size: 40px;
+    line-height: 69px;
+
+
+}
+#accroche-learning span{
+    color: #08FE90;
+}
+
+#learning-journey-1-2, #learning-journey-3-4{
+    display: flex;
+
+}
+
+#journey1, #journey2,#journey3,#journey4{
+    width: 30%;
+    margin-top: 50px;
+}
+.point{
+    color: #34AEFF;
+    font-size: 54px;
+    line-height: 69px;
+}
+#journey1 p:nth-child(1),#journey2 p:nth-child(1),#journey3 p:nth-child(1),#journey4 p:nth-child(1){
+    line-height: 69px;
+    font-size: 54px;
+}
+
+#journey1 p:nth-child(2),#journey2 p:nth-child(2),#journey3 p:nth-child(2),#journey4 p:nth-child(2){
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 20px;
+}
+#journey1 p:nth-child(3),#journey2 p:nth-child(3),#journey3 p:nth-child(3),#journey4 p:nth-child(3){
+    font-size: 24px;
+    line-height: 31px;
+    color: #828282;
+    margin-top: 10px;
+}
+#journey2,#journey4{
+    margin-left: 50px;
+}
+
+/*-----------------------------------Classes couleur pour le dark mode-------------------------------------------------------*/
+.color-clear-mode{
+    background-color: #F5F5FA;
+}
+.color-dark-mode{
+    background-color: black;
+}
+
+.color-text-clear-mode{
+    color: black;
+}
+.color-text-dark-mode{
+    color: white;
+}
+/*------------------------------Fin de la création des classes pour le dark mode---------------------------------------------*/
+@media screen and (max-width: 1200px){
+    #first-image{
+        width: 500px;
+        height: 500px;
+    }
+    #vecteur1,#second-vector{
+        width: 200px;
+        height: 200px;
+    }
+    #title-information-features{
+        transform: translateX(0px);
+    }
+    #title-information-features p{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1100px){
+    #container-title h1{
+         font-size: 80px;
+    }
+    #container-title h2{
+        font-size: 30px;
+    }
+    #container-choice-quiz p:nth-child(1){
+        font-size: 50px;
+    }
+    #container-choice-quiz p:nth-child(2){
+        font-size: 20px;
+    }
+    #journey1 p:nth-child(1),#journey2 p:nth-child(1),#journey3 p:nth-child(1),#journey4 p:nth-child(1){
+        font-size: 45px;
+    }
+    #journey1 p:nth-child(2),#journey2 p:nth-child(2),#journey3 p:nth-child(2),#journey4 p:nth-child(2){
+        font-size: 25px;
+    }
+    #journey1 p:nth-child(3),#journey2 p:nth-child(3),#journey3 p:nth-child(3),#journey4 p:nth-child(3){
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 950px){
+    .button-validation-quiz button{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 900px){
+    #container-title h1{
+         font-size: 60px;
+    }
+    #container-title h2{
+        font-size: 25px;
+    }
+    #first-image{
+        width: 400px;
+        height: 400px;
+    }
+    #container-choice-quiz p:nth-child(1){
+        font-size: 40px;
+    }
+    #container-choice-quiz p:nth-child(2){
+        font-size: 18px;
+    }
+    #redirection-quiz{
+        flex-direction: column;
+        width: 100%;
+    }
+    #quiz-html,#quiz-css,#quiz-js{
+        width: 33%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .button-validation-quiz{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 850px){
+    #presentation-features{
+        width: 100%;
+        flex-direction: column;
+    }
+    #first-feature,#second-feature,#third-feature{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    #second-feature{
+        margin-left: 200px;
+    }
+    #first-feature{
+        margin-left: 200px;
+    }
+    #text-in-first-feature,#text-in-second-feature,#text-in-third-feature{
+        text-align: center;
+    }
+    #container-image-first-feature,#container-image-second-feature{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 800px){
+     #title-information-features p{
+        font-size: 30px;
+    }
+    #journey1 p:nth-child(1),#journey2 p:nth-child(1),#journey3 p:nth-child(1),#journey4 p:nth-child(1){
+        font-size: 35px;
+    }
+    #journey1 p:nth-child(2),#journey2 p:nth-child(2),#journey3 p:nth-child(2),#journey4 p:nth-child(2){
+        font-size: 20px;
+    }
+    #journey1 p:nth-child(3),#journey2 p:nth-child(3),#journey3 p:nth-child(3),#journey4 p:nth-child(3){
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 750px){
+    #container-choice-quiz p:nth-child(1){
+        font-size: 30px;
+    }
+    #container-choice-quiz p:nth-child(2){
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 700px){
+    #first-image{
+        float: none;
+        margin-left: 170px;
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    #container-choice-quiz{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px){
+    #container-title h1{
+         font-size: 50px;
+    }
+    #container-title h2{
+        font-size: 20px;
+    }
+    #title-information-features p{
+        font-size: 25px;
+    }
+    #first-feature,#second-feature,#third-feature{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    #second-feature{
+        margin-left: 150px;
+    }
+    #first-feature{
+        margin-left: 150px;
+    }
+    #learning-journey-1-2, #learning-journey-3-4{
+        flex-direction: column;
+    }
+    #journey2,#journey4{
+        margin-left: 0px;
+    }
+    #journey1,#journey2,#journey3,#journey4{
+          margin: 0 auto;
+          margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 450px){
+    #title-information-features p{
+        font-size: 20px;
+    }
+}

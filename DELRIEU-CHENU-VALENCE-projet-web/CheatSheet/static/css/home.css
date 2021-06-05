@@ -1,0 +1,390 @@
+body{
+    background-color: #F5F5FA;
+    overflow-x: hidden;
+}
+/*--------------------------------Création du style du texte de l'animation à l'ouverture de la page ---------------------------------*/
+#start-animation-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 250px;
+}
+#start-animation-container p{
+    font-size: 150px;
+    background-image: linear-gradient(90.14deg, #BA7ECF 2.9%, #F19ED0 23.1%, #948DF2 44.99%, #B9C2FF 75.22%, #FBCEA5 101.86%);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     font-weight: bold;
+}
+
+/*------------------------------------Stylisation du texte "Cheat Sheet Web Créer votre propre site web --------------*/
+#title-home{
+    align-items: center;
+    text-align: center;
+    width: 37%;
+    margin-top: 100px;
+
+}
+#title-catching-phrase{
+    font-weight: bold;
+    font-size: 72px;
+    background-image: linear-gradient(90.14deg, #BA7ECF 2.9%, #F19ED0 23.1%, #948DF2 44.99%, #B9C2FF 75.22%, #FBCEA5 101.86%);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     background-clip: text;
+     color: transparent;
+
+}
+#catching-phrase{
+    color: #AAADFA;
+    font-size: 36px;
+}
+/*----------------------------------------------------Fin de la stylisation -----------------------------------------------------------*/
+/*------------------------------------------------------Placement des images servant de décors----------------------------------------*/
+#first-image{
+    position: absolute;
+    float: right;
+    left: 64%;
+    margin-left: 7px;
+    z-index: 0;
+    top: 10%;
+}
+#second-image{
+    position: absolute;
+    float: right;
+    left: 45%;
+    margin-left: 16px;
+    transform: translateY(-8%);
+}
+#third-image{
+    position: relative;
+    left: 0;
+    margin-top: 20px;
+}
+
+/*-------------------------------------------------------Fin du placement des images ------------------------------------------------*/
+/*-------Cette classe est appliquée aux conteneurs se trouvant coller sur la partie gauche de l'écran -------------------------------*/
+.container-left{
+    padding-left: 10%;
+    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    width: 50%;
+    margin-top: 300px;
+    padding-bottom: 40px;
+    transform: translateX(-10%);
+}
+#text-CSW{
+    background-image: linear-gradient(90.14deg, #BA7ECF 2.9%, #F19ED0 23.1%, #948DF2 44.99%, #B9C2FF 75.22%, #FBCEA5 101.86%);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     font-weight: bold;
+     font-size: 40px;
+}
+#conteneur-text-CSW{
+    width: 75%;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+/*--------------------------------------------------Stylisation du caroussel ---------------------------------------------------------*/
+#caroussel{
+    position: relative;
+    text-align: center;
+    background-color: white;
+    width: 90%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 60px;
+    padding-bottom: 40px;
+}
+#caroussel p{
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.caroussel-item-hidden{
+    display: none;
+}
+.caroussel-item-visible{
+    display: block;
+    animation: visibility 0.5s;
+}
+.button-caroussel{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    top: -50px;
+}
+
+#button-next{
+    position:relative;
+    left: 45%;
+    top: -150px;
+
+}
+#button-previous{
+    position: relative;
+    right: 45%;
+    top: -150px;
+
+}
+/*-------------------------------------------------------Fin du design du caroussel----------------------------------------------------*/
+#lessons-presentation{
+    background-image: linear-gradient(90.14deg, #BA7ECF 2.9%, #F19ED0 23.1%, #948DF2 44.99%, #B9C2FF 75.22%, #FBCEA5 101.86%);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     font-size: 48px;
+     font-weight: bold;
+}
+#container-lessons-presentation{
+    text-align: center;
+    width: 50%;
+    margin-left: 15%;
+}
+#container-lessons-presentation p:nth-child(2){
+    font-size: 30px;
+    margin-top: 20px;
+}
+.text-inner-caroussel{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.text-inner-caroussel p{
+    font-size: 30px;
+}
+#container-quiz{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    width: 50%;
+    margin-top: 50px;
+    height: 300px;
+    margin-left: 50%;
+}
+/* Selection du premier enfant de la div*/
+#container-quiz p:nth-child(1){
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    background-color: linear-gradient(90.14deg, #BA7ECF 2.9%, #F19ED0 23.1%, #948DF2 44.99%, #B9C2FF 75.22%, #FBCEA5 101.86%);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     background-clip: text;
+}
+#container-quiz p:nth-child(2){
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+#container-accroche{
+    background-color: white;
+    border-radius: 60px;
+    width: 70%;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    padding: 100px;
+    margin-top: 100px;
+
+}
+#container-accroche>p{
+    background: linear-gradient(90.14deg, #BA7ECF 2.9%, #F19ED0 23.1%, #948DF2 44.99%, #B9C2FF 75.22%, #FBCEA5 101.86%);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     font-size: 90px;
+
+}
+@keyframes visibility{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: opacity 1;
+    }
+
+}
+@media screen and (max-width: 1200px){
+    #title-catching-phrase{
+        font-size: 60px;
+    }
+    #catching-phrase{
+        font-size: 30px;
+    }
+    #first-image{
+        width: 400px;
+        height:600px;
+        left: 66%;
+
+    }
+    #second-image{
+        width: 650px;
+        height: 900px;
+        left: 41%;
+        transform: translateY(-15%);
+    }
+    #third-image{
+
+        width: 350px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #conteneur-text-CSW{
+        font-size: 20px;
+    }
+    #container-accroche>p{
+         font-size: 70px;
+
+    }
+    .text-inner-caroussel p{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 950px){
+    #title-catching-phrase{
+        font-size: 50px;
+    }
+    #catching-phrase{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 900px){
+    #first-image{
+        display: none;
+    }
+    #second-image{
+        display: none;
+    }
+    #title-home{
+        width: 100%;
+        text-align: center;
+    }
+    #third-image{
+       height: 500px;
+       width: 500px;
+    }
+    .container-left{
+        margin-top: 50px;
+    }
+    #lessons-presentation{
+        font-size: 35px;
+    }
+    #container-quiz>p{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 800px){
+    .logo-langage{
+        width: 200px;
+        height: 230px;
+    }
+    #title-catching-phrase{
+        font-size: 40px;
+    }
+    #catching-phrase{
+        font-size: 20px;
+    }
+    #conteneur-text-CSW p{
+        font-size: 15px;
+    }
+    .caroussel-item p{
+        font-size: 30px;
+    }
+    #container-accroche>p{
+         font-size: 50px;
+
+    }
+    #button-next{
+        top: -130px;
+    }
+    #button-previous{
+        top: -130px;
+    }
+    .text-inner-caroussel p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .logo-langage{
+        width: 150px;
+        height: 180px;
+    }
+    .caroussel-item p{
+        font-size: 25px;
+    }
+    #lessons-presentation{
+        font-size: 25px;
+    }
+
+    #container-quiz{
+        border-radius: 60px;
+        width: 100%;
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width: 600px){
+    #text-CSW{
+        font-size: 30px;
+    }
+    #container-accroche>p{
+         font-size: 30px;
+
+    }
+    #button-next{
+        top: -100px;
+    }
+    #button-previous{
+        top: -100px;
+    }
+    .text-inner-caroussel p{
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .container-left{
+        width: 100%;
+        transform: translateX(0);
+
+    }
+    .logo-langage{
+        width: 100px;
+        height: 130px;
+    }
+    .caroussel-item p{
+        font-size: 20px;
+    }
+    #lessons-presentation{
+        padding-top: 20px;
+    }
+    #button-next{
+        top: -80px;
+    }
+    #button-previous{
+        top: -80px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #container-quiz>p{
+        font-size: 20px;
+    }
+}

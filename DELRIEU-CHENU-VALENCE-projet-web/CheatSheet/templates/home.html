@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/home.css">
+    <link rel="stylesheet" href="../static/css/font/stylesheet.css">
+    <link rel="stylesheet" href="../static/css/navigation-footer.css">
+    <title>Document</title>
+</head>
+    <body>
+    <!-------------------Affichage de l'animation lors de l'ouverture de la page d'accueil --------------------------------------------->
+        <div id="start-animation-container"></div>
+        <div id="body-container" class="hidden">
+        <!--------------------------------- Elaboration de la barre de navigation sous ordinateur ------------------------------------------>
+            <div id="navigation-bar-computer" class="color-navigation-bar-clear-mode">
+                <p id="title-navigation" class="tuffyregular">Cheat Sheet Web</p>
+                <div id="all-link-navigation">
+                    <p class="navigation-link tuffyregular"><a href="home.html">Accueil</a></p>
+                    <div class="separateur"></div>
+                    <p class="navigation-link tuffyregular"><a href="cheatsheet.html">Cheat Sheet</a></p>
+                    <div class="separateur"></div>
+                    <p class="navigation-link tuffyregular"><a href="quiz.html">Quiz</a></p>
+                    <div class="separateur"></div>
+                    <p class="navigation-link tuffyregular"><a href="outils.html">Outils</a></p>
+                    <div class="separateur"></div>
+                    <p class="navigation-link tuffyregular"><a href="about.html">A propos</a></p>
+                </div>
+                <div id="container-dark-mode">
+                    <img src="../static/img/moon.png" alt="Moon dark mode">
+                </div>
+                <div id="toggle-day-night">
+                    <div id="container-ball-dark-mode">
+                        <div class="ball-dark-mode" id="ball-dark-mode"></div>
+                    </div>
+
+                </div>
+                <div id="toggle-button-hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        <!----------------------------Elaboration de la barre de navigation sous portable et tablette ------------------------------------------>
+            <div id="navigation-bar-phone" class="color-navigation-bar-clear-mode hidden">
+                <!----Création du conteneur du bouton permettant de fermer le menu déroulant-->
+                <div id="toggle-button-close-menu">
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-------Création du menu déroulant sous portable ------>
+                <div id="elements-navigation-phone">
+                    <p id="title-navigation-phone" class="tuffyregular">Cheat Sheet Web</p>
+                        <div id="all-link-navigation-phone">
+                            <p class="navigation-link tuffyregular"><a href="home.html">Accueil</a></p>
+                            <p class="navigation-link tuffyregular"><a href="cheatsheet.html">Cheat Sheet</a></p>
+                            <p class="navigation-link tuffyregular"><a href="quiz.html">Quiz</a></p>
+                            <p class="navigation-link tuffyregular"><a href="outils.html">Outils</a></p>
+                            <p class="navigation-link tuffyregular"><a href="about.html">A propos</a></p>
+                        </div>
+                </div>
+            </div>
+            <div id="main-container">
+                <div id="title-home">
+                    <p id="title-catching-phrase" class="tuffyregular">Cheat Sheet Web</p>
+                    <p id="catching-phrase">Creer votre propre site web</p>
+                </div>
+                <img src="../static/img/first-image-accueil.png" alt="Première image de la page d'accueil" id="first-image">
+                <img src="../static/img/second-image-accueil.png" alt="Seconde image de la page d'accueil" id="second-image">
+                <img src="../static/img/third-image-accueil.png" alt="Troisieme image de la page d'accueil" id="third-image">
+                <div class="container-left">
+                    <p id="text-CSW" class="capriol">CSW</p>
+                    <div id="conteneur-text-CSW">
+                        <p class="capriol">Apprenez l'html, le CSS et javascript, puis créez vos propres sites web !</p>
+                        <p class="capriol">C'est facile, suivez les cours et testez vous sur nos différents quiz.</p>
+                        <p class="capriol">Devenez un développeur hors pair !</p>
+                    </div>
+                </div>
+                <div id="caroussel">
+                    <div class="caroussel-item-visible caroussel-item">
+                        <img src="../static/img/logoHTML.png" alt="logo Html" class="logo-langage">
+                        <div class="text-inner-caroussel">
+                            <p>Html est un langage de balisage de texte</p>
+                            <p>Il permet l'affichage de texte à l'écran, et tous les sites contiennent du HTML</p>
+                        </div>
+                    </div>
+                    <div class="caroussel-item-hidden caroussel-item">
+                        <img src="../static/img/logoCSS.png" alt="logo Html" class="logo-langage">
+                        <div class="text-inner-caroussel">
+                            <p>CSS permet de styliser du texte</p>
+                            <p>Comme HTML, CSS fait parti intégrante de l'ensemble des sites web !</p>
+                        </div>
+                    </div>
+                    <div class="caroussel-item-hidden caroussel-item">
+                        <img src="../static/img/logoJS.png" alt="logo Html" class="logo-langage">
+                        <div class="text-inner-caroussel">
+                            <p>Javascript est un langage permettant l'animation de composants sur les sites web.</p>
+                        </div>
+                    </div>
+                    <div id="caroussel-buttons">
+                        <img src="../static/img/next-arrow-caroussel.png" alt="next-arrow" id="button-next" class="button-caroussel">
+                        <img src="../static/img/previous-arrow-caroussel.png" alt="previous-arrow" id="button-previous" class="button-caroussel">
+                    </div>
+                </div>
+                <div class="container-left">
+                    <div id="container-lessons-presentation">
+                        <p id="lessons-presentation">Les cours sur Cheat Sheet Web</p>
+                        <p>Une multitude de cours à venir !</p>
+                    </div>
+                </div>
+
+                <div id="container-quiz">
+                    <p class="capriol">Les Quiz</p>
+                    <p>Testez vos connaissances en HTML, CSS et JavaScript !</p>
+                </div>
+                <div id="container-accroche">
+                    <p>Lancez-vous sur <br>Cheat Sheet Web !!!</p>
+                </div>
+                <footer>
+                    <p id="title-footer">Projet Web</p>
+                    <div id="container-about-footer">
+                        <a href="about.html">A propos</a>
+                        <a href="about.html"><img src="../static/img/logo-about.png" alt="Logo a propos"></a>
+                    </div>
+                    <p id="etudiants">Etudiant Efrei Paris</p>
+                    <div id="container-bottom-footer">
+                        <div id="container-logo-our-team">
+                            <img src="../static/img/Pierrick.png" alt="Logo Pierrick">
+                            <img src="../static/img/Meric.png" alt="Logo Méric">
+                            <img src="../static/img/Agathe.png" alt="Logo Agathe">
+                        </div>
+                        <img src="../static/img/logo-efrei.png" alt="Logo Efrei Paris" id="logo-efrei-footer">
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="../static/js/home.js"></script>
+        <script src="../static/js/navigation-footer.js"></script>
+    </body>
+</html>

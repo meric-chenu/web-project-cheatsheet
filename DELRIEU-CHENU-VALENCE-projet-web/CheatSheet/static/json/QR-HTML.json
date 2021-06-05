@@ -1,0 +1,204 @@
+[{
+    "level": 1,
+    "type": "QCM",
+    "question": "Le rôle du HTML est de...",
+    "suggestions": ["Mettre en forme du texte", "Ordonner du contenu", "Créer des sites e-commerce"],
+    "answers": ["Ordonner du contenu"]
+},
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Afin de mettre un texte au format titre, nous pouvons utiliser : ",
+        "suggestions": ["les balises  &lth1&gt, &lth2&gt, ..., &lth6&gt", "la base &lttitle&gt", "la balise &ltp&gt"],
+        "answers": ["les balises  &lth1>, &lth2>, ..., &lth6>"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Un commentaire s'écrit : ",
+        "suggestions": ["'''commentaire'''", "/* commentaire */", "// commentaire", "&lt!-- commentaire --&gt"],
+        "answers": ["&lt!-- commentaire --&gt"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Pour créer un lien vers la page d'accueil de Wikipédia, on écrira...",
+        "suggestions": ["&lta target=''http://wikipedia.org''&gtWikipédia&lt/a&gt", "&lta href=''http://wikipedia.org''&gt", "&lta href=''http://wikipedia.org''&gtWikipédia&lt/a&gt"],
+        "answers": ["&lta href=''http://wikipedia.org''>Wikipédia&lt/a>"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Lorsque vous utilisez l'élément a, vous devez obligatoirement préciser...",
+        "suggestions": ["Un attribut target", "Un attribut href", "Deux attributs href et target"],
+        "answers": ["Un attribut href"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Pour indiquer qu'un contenu est très important, on utilise l'élément...",
+        "suggestions": ["Strong", "Em", "Mark"],
+        "answers": ["Strong"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Quels éléments sont nécessaires pour créer une liste non-ordonnée ?",
+        "suggestions": ["ul et li", "ol et li", "ul et ol"],
+        "answers": ["ul et li"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Laquelle de ces syntaxes est correcte ?",
+        "suggestions": ["&ltimg&gtsrc=''mon-image.jpg'' alt=''Une image''&lt/img&gt", "&ltimg src=''mon-image.jpg'' alt=''Une image''&gt", "&ltimg href=''mon-image.jpg'' alt=''Une image''&gt"],
+        "answers": ["&ltimg src=''mon-image.jpg'' alt=''Une image''>"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "A quoi sert l'attribut alt de l'élément img ?",
+        "suggestions": ["A donner une description de l'image si celle-ci ne peut pas s'afficher", "A donner un lien alternatif vers l'image si le premier est cassé", "A afficher une deuxième image si la première ne peut pas s'afficher"],
+        "answers": ["A donner une description de l'image si celle-ci ne peut pas s'afficher"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Pourquoi doit-on toujours essayer d'avoir un code HTML valide ?",
+        "suggestions": ["Pour minimiser le nombre de bugs potentiels", "Pour optimiser son référencement", "Pour éviter des problèmes d'affichage futurs"],
+        "answers": ["Les 3 réponses !"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "L'attribut utilisé avec la balise &lttable&gt pour donner une bordure à votre tableau est : ",
+        "suggestions": ["border", "line", "margin-left border"],
+        "answers": ["border"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "A quoi sert rowspan?",
+        "suggestions": ["étendre horizontalement une cellule en fusionnant deux colonnes uniquement", "étendre horizontalement une cellule en fusionnant deux ou plusieurs lignes", "étendre horizontalement une cellule en fusionnant deux ou plusieurs colonnes"],
+        "answers": ["étendre horizontalement une cellule en fusionnant deux ou plusieurs lignes"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "La propriété border-collapse permet de séparer les cellules d'un tableau uniquement.",
+        "suggestions": ["Vrai", "Faux"],
+        "answers": ["Faux"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quel est le type du bouton utiliser pour envoyer un formulaire?",
+        "suggestions": ["type=''reset''", "type=''entrer''", "type=''texte''", "type=''submit''"],
+        "answers": ["type=''submit''"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quel nom de fichier est fortement recommandé pour sauvegarder la page HTML d'accueil de votre site?",
+        "suggestions": ["index.html", "page.html", "front.html", "home.html"],
+        "answers": ["index.html"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Une balise de type bloc peut contenir",
+        "suggestions": ["Uniquement des balises bloc", "D'autres balises bloc pouvant contenir elles mêmes des balises en ligne", "Aucune autre balise", "Uniquement des balises en lignes"],
+        "answers": ["D'autres balises bloc pouvant contenir elles mêmes des balises en ligne"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Dans quelle zone de la page HTML doit-on positionner les balises méta ?",
+        "suggestions": ["Entre &lthead&gt et &lt/head&gt", "Entre &ltbody&gt et &lt/bosy&gt", "En dehors des balises &lthtml&gt", "N'importe où dans la page"],
+        "answers": ["Entre &lthead> et &lt/head>"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quelles balises sont-elles utilisées pour déclarer un tableau ?",
+        "suggestions": ["&lttableau&gt ... &lt/tableau&gt", "&lttd&gt ... &lt/td&gt", "&lttable&gt ... &lt/table&gt", "&ltform&gt ... &lt/form&gt"],
+        "answers": ["&lttable> ... &lt/table>"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Un attribut ?",
+        "suggestions": ["Est une valeur d'un formulaire", "Est le contenu d'une cellule d'un tableau", "Permet de préciser le rôle ou certaines propriétés d’une balise dans le document", "Est une balise de type bloc"],
+        "answers": ["Permet de préciser le rôle ou certaines propriétés d’une balise dans le document"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Pour insérer un fichier Multimédia on utilise la balise",
+        "suggestions": ["La balise &ltending&gt", "La balise &ltexternal&gt", "La balise &ltobject&gt", "La balise &ltlink...&gt"],
+        "answers": ["La balise &ltobject>"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Quelle entrée de formulaire HTML devrions-nous utiliser pour présenter plusieurs options, mais pour n'en sélectionner qu'une?",
+        "suggestions": ["&ltinput type=''text''&gt", " &ltinput type=''radio''&gt", "&ltinput type=''checkbox''&gt"],
+        "answers": [" &ltinput type=''radio''>"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Dans le cadre de la balise &ltinput /&gt, pour quelle valeur de l'attribut type= l'attribut accept= est-il utile ?",
+        "suggestions": ["file", "text", "radio", "password"],
+        "answers": ["file"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Quelle valeur n'existe pas pour l'attribut type= de la balise &ltinput /&gt ?",
+        "suggestions": ["tel", "date", "label", "hidden"],
+        "answers": ["label"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Que permet de faire la balise &ltsub&gt ?",
+        "suggestions": ["Citation courte", "Texte barré", "Barre horizontale / rupture thématique", "Texte en indice"],
+        "answers": ["Texte en indice"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Lequel de ces liens s'ouvre automatiquement dans un nouvel onglet ?",
+        "suggestions": ["&lta href=''https://www.google.fr/#new''&gt", "&lta href=''https://www.google.fr/'' new=''&gt", "&lta href=''https://www.google.fr/'' target=''_new''&gt", "&lta href=''https://www.google.fr/'' target=''_blank''&gt"],
+        "answers": ["&lta href=''https://www.google.fr/'' target=''_blank''>"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Lorsqu'une image ne se charge pas, la valeur d'un des attributs suivants s'affiche. Lequel ?",
+        "suggestions": ["title=", "alt=", "src=", "target="],
+        "answers": ["alt="]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Quelle est la syntaxe à utiliser pour déclarer l'encodage des caractères du document en UTF-8 ?",
+        "suggestions": ["&ltmeta encoding=''text/html; charset=utf-8'' /&gt", "&ltmeta charset=''text/html; UTF-8'' /&gt", "&ltmeta charset=''utf-8'' /&gt", "&ltmeta lang=''utf-8'' /&gt"],
+        "answers": ["&ltmeta charset=''utf-8'' />"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Quelle balise faut-il utiliser pour créer une liste déroulante ?",
+        "suggestions": ["&ltinput type=''list''&gt", "&ltinput type=''dropdown''&gt", "&ltlist&gt", "&ltselect&gt"],
+        "answers": ["&ltselect>"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": " Lequel de ces liens renvoie l'utilisateur à une ancre dans la page ?",
+        "suggestions": ["&lta href=''_anchor''&gt", "&lta href=''&anchor''&gt", "&lta href=''#anchor''&gt", "&lta href=''?anchor''&gt"],
+        "answers": ["&lta href=''#anchor''>"]
+    }
+]

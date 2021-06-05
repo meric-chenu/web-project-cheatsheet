@@ -1,0 +1,225 @@
+[{
+    "level": 1,
+    "type": "QCM",
+    "question": "Que signifie CSS ?",
+    "suggestions": ["Cascading Style Sheets", "Create Simple Samples", "Creative style sheet"],
+    "answers": ["Cascading Style Sheets"]
+},
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "A quoi sert le langage CSS ?",
+        "suggestions": ["A réaliser des pages dynamiques", "A ajouter du style aux documents web", "A insérer du contenu dans une page internet"],
+        "answers": ["A ajouter du style aux documents web"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Pourquoi utilise-t-on généralement du CSS ?",
+        "suggestions": ["Pour se compliquer la vie bien sûr", "Pour séparer le contenu et la présentation des documents web", "Cela permet de faire de plus jolis dégradés de couleurs"],
+        "answers": ["Pour séparer le contenu et la présentation des documents web"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Où est-il conseillé de placer le code CSS ?",
+        "suggestions": ["Dans le &ltbody&gt, quelle question", "Entre les balises &lthead&gt, c'est bien plus propre", "Dans un fichier externe utilisable pour plusieurs pages"],
+        "answers": ["Dans un fichier externe utilisable pour plusieurs pages"]
+    },
+
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Dans quoi définit-on les déclarations CSS ?",
+        "suggestions": ["Entre deux crochets séparées par des tirets [ ... - ... ]", "Entre deux guillemets séparés par des slashs ''... / ...'' ", "Entre deux accolades séparés par des points-virgules { ... ; ... }"],
+        "answers": ["Entre deux accolades séparés par des points-virgules { ... ; ... }"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "A quoi sert le sélecteur de classe : h2.nomDeClasse ?",
+        "suggestions": ["Ah bon ... C'est censé servir à quelque chose ?", "A créer une ancre sur la balise &lth2&gt", "A définir différentes propriétés pour l'élément &lth2&gt dont la classe est ''nomDeClasse''"],
+        "answers": ["A définir différentes propriétés pour l'élément &lth2> dont la classe est ''nomDeClasse''"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Quel élément sépare la propriété de sa valeur ?",
+        "suggestions": ["Le signe espace ( )", "Le signe égal (=)", "Le signe deux points (:)"],
+        "answers": ["Le signe deux points (:)"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Combien de règles peut contenir un fichier CSS ?",
+        "suggestions": ["Il n'y a pas de limite, on peut en créer autant que l'on veut", "Si le poids du fichier n'excède pas 20Ko, c'est tout bon", "150"],
+        "answers": ["Il n'y a pas de limite, on peut en créer autant que l'on veut"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Quelle propriété est-elle à utiliser pour définir la taille des caractères ?",
+        "suggestions": ["text-taille", "font-size", "font-weight", "font-heigh"],
+        "answers": ["font-size"]
+    },
+    {
+        "level": 1,
+        "type": "QCM",
+        "question": "Par qui CSS est défini ?",
+        "suggestions": ["Google", "W3C", "IBM", "Firefox"],
+        "answers": ["W3C"]
+    },
+
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quelle déclaration CSS permet d'ajouter une majuscule à chaque mot d'un élément HTML ?",
+        "suggestions": ["text-transform: capitalize;", "font-transform: capitalize;", "text-decoration: uppercase;", "C'est impossible"],
+        "answers": ["text-transform: capitalize;"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Lequel de ces sélecteurs permet de cibler l'élément HTML avec l'attribut id='titi' ?",
+        "suggestions": ["#titi {}", "*titi {}", ".titi {}", "titi {}"],
+        "answers": ["#titi {}"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quelle propriété CSS permet de modifier la couleur d'un élément HTML ?",
+        "suggestions": ["color:", "fgcolor:", "text-color:", "bgcolor:"],
+        "answers": ["color:"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Lequel de ces sélecteurs a le poids le plus important et donc la priorité sur les autres ?",
+        "suggestions": ["#toto", ".titi", "body", "*"],
+        "answers": ["#toto"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quel sélecteur ci-après permet de cibler les paragraphes enfant de l'élément id='titi' ?",
+        "suggestions": ["p#titi {}", "#titi p {}", "p.titi {}", "titi p {}"],
+        "answers": ["#titi p {}"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quelle déclaration permet de supprimer le soulignement d'un élément en CSS ?",
+        "suggestions": ["underline: none;", "text-decoration: none;", "text-decoration: underline;", "text-decoration: hidden;"],
+        "answers": ["text-decoration: none;"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quelle valeur de la propriété display: permet de faire disparaître un élément ?",
+        "suggestions": ["hidden", "invisible", "no", "none"],
+        "answers": ["none"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quelle déclaration permet de centrer le texte d'un élément ?",
+        "suggestions": ["text: center;", "text-align: center;", "font-align: center;", "align: center;"],
+        "answers": ["text-align: center;"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quelle déclaration permet de définir une marge extérieure uniquement en haut et en bas de 10px d'un élément ?",
+        "suggestions": ["padding: 10px;", "padding: 10px 0;", "margin: 10px 0;", "margin: 10px;"],
+        "answers": ["margin: 10px 0;"]
+    },
+    {
+        "level": 2,
+        "type": "QCM",
+        "question": "Quelle est la valeur par défaut de la propriété display: pour un élément &ltp&gt ?",
+        "suggestions": ["none", "inline", "block", "inline-block"],
+        "answers": ["block"]
+    },
+
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Quel code permettra d'avoir des liens rouges au survol par la souris, même si ces liens ont déjà été visités ?",
+        "suggestions": [
+            "Proposition A :\na:hover {color: orange;}\na:visited {color: red;}\na {color: green;}",
+            "Proposition B :\na:hover {color: red;}\na:visited {color: orange;}",
+            "Proposition C :\na:visited {color: orange;}\na:hover {color: red;}\na {color: green;}",
+            "Proposition D :\na:visited {color: orange;}\na:hover {color: red;}"
+        ],
+        "answers": ["Proposition C et Proposition D"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Pour le fragment de code XHTML suivant : &ltdiv&gt&ltp&gtkikoo&lt/p&gt&lt/div&gt&ltp&gtlol&lt/p&gt, avec laquelle de ces règles CSS les deux paragraphes seront-il espacés verticalement de 20 pixels ?",
+        "suggestions": [
+            "div {padding: 0; margin: 0;}\np {padding: 0; margin: 10px;}",
+            "div {padding: 7px; margin: 0;}\np {padding: 0; margin: 13px;}",
+            "div {padding: 8px; margin: 5px;}\np {padding: 0; margin: 6px;}",
+            "div {padding: 0; margin: 13px;}\np {padding: 0; margin: 7px;}"
+        ],
+        "answers": ["div {padding: 8px; margin: 5px;}\np {padding: 0; margin: 6px;}"]
+    },
+
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Avec quelle propriété CSS 2.1 peut-on arrondir les coins d'un bloc (du moment que le navigateur la comprenne) ?",
+        "suggestions": ["border-crop", "border-radius", "border-round", "-moz-border-radius", "Aucune"],
+        "answers": ["Aucune"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Comment faire un survol de lien (rollover) accessible au plus grand nombre en CSS ?",
+        "suggestions": ["p:hover, p:focus {color: blue;}", "a:hover {color: blue;}", "a:hover, a:focus {color: blue;}", "a:hover, a:focus, a:active {color: blue;}"],
+        "answers": ["a:hover, a:focus, a:active {color: blue;}"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "En supposant que tous les sélecteurs suivants sont justes et désignent le même élément, lequel sera appliqué en priorité ?",
+        "suggestions": ["#page ul li a {}", "#page .menu a {}", "div.menu ul li a {}", "div#page ul a {}"],
+        "answers": ["#page .menu a {}"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Parmi les propositions suivantes, laquelle n'est pas une valeur de la propriété ''display'' ?",
+        "suggestions": ["list-item", "inline-block", "table-legend", "inline-table", "inherit"],
+        "answers": ["table-legend"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Quelles règles peut-on employer pour afficher à droite et sur une seule ligne une liste d'éléments non ordonnés ?\nNota : les liens doivent s'afficher suivant leur ordre d'apparition dans le code HTML.",
+        "suggestions": ["Proposition A :\nul {text-align: right;}\nul li {display: inline;}", "Proposition B :\nul {text-align: left;}\nul li {display: inline; text-align: right;}", "Proposition C :\nul li {float: right;}", "Proposition D :\nul {float: right;}\nul li {float: left;}"],
+        "answers": ["Proposition A et Proposition D"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "h1[class~=title] + p:first-letter {color: #c00;} modifiera la couleur du texte...",
+        "suggestions": ["...des titres h1 et de la première lettre des paragraphes", "...de la première lettre des paragraphes qui suivent immédiatement un titre h1 de classe ''title''", "...de la première lettre des paragraphes et de la première lettre des titres h1 de classe ''title''", "...de la première lettre des paragraphes et des titres h1 ayant un attribut title égal à ''class''", "...de rien du tout, c'est n'importe quoi cette règle !"],
+        "answers": ["...de la première lettre des paragraphes qui suivent immédiatement un titre h1 de classe ''title''"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Lequel des sélecteurs suivants permet de cibler l'élément qui possède les classes .super, .mega et .top ?",
+        "suggestions": ["#super, #mega, #top {}", ".super + .mega + .top {}", ".super.mega.top {}", ".super .mega .top {}"],
+        "answers": [".super.mega.top {}"]
+    },
+    {
+        "level": 3,
+        "type": "QCM",
+        "question": "Lequel des sélecteurs suivants permet de cibler les éléments &ltp&gt, &ltli&gt et &ltspan&gt ?",
+        "suggestions": ["p.li.span {}", "p + li + span {}", "p li span {}", "p, li, span {}"],
+        "answers": ["p, li, span {}"]
+    }
+]
